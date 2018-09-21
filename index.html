@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<title>Linear Equations</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Pair of Linear Equations</h1>
+		<p>Enter values for the coefficients and click "solve" to evaluate the solutions</p>
+		<form action="javascript::void(0)">
+			<p>
+				<input type="number" id="a1" value="0" required> x + 
+				<input type="number" id="b1" value="0" required> y + 
+				<input type="number" id="c1" value="0" required> = 0
+			</p>
+			<br>
+			<p>
+				<input type="number" id="a2" value="0" required> x + 
+				<input type="number" id="b2" value="0" required> y + 
+				<input type="number" id="c2" value="0" required> = 0
+			</p>
+			<br>
+			<input type="submit" id="submit" value="Solve">
+		</form>
+
+		<br>
+
+		<div id="answer"></div>
+	</div>
+	<br><br>
+	<footer>
+		<p>Created by Aryan Mediratta</p>
+		<p><a href="https://github.com/aryan-02/">https://github.com/aryan-02/</a></p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
