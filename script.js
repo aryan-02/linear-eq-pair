@@ -25,7 +25,7 @@ $("#submit").click(function(e) {
 		answer = "No solution.";
 	}
 	else {
-		answer = "X = " + X + "; \n Y = " + Y;
+		answer = "x = " + X + "; \n y = " + Y;
 	}
 	if(answer.search("NaN") !== -1)
 	{
